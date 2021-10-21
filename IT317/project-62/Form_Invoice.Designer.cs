@@ -1,0 +1,639 @@
+﻿namespace project_62
+{
+    partial class Form_Invoice
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Invoice));
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.listBox5 = new System.Windows.Forms.ListBox();
+            this.listBox4 = new System.Windows.Forms.ListBox();
+            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.listBox6 = new System.Windows.Forms.ListBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.label15);
+            this.groupBox1.Controls.Add(this.label14);
+            this.groupBox1.Controls.Add(this.label13);
+            this.groupBox1.Controls.Add(this.label12);
+            this.groupBox1.Controls.Add(this.label16);
+            this.groupBox1.Controls.Add(this.label11);
+            this.groupBox1.Controls.Add(this.listBox2);
+            this.groupBox1.Controls.Add(this.listBox5);
+            this.groupBox1.Controls.Add(this.listBox4);
+            this.groupBox1.Controls.Add(this.listBox3);
+            this.groupBox1.Controls.Add(this.listBox6);
+            this.groupBox1.Controls.Add(this.listBox1);
+            this.groupBox1.Controls.Add(this.tableLayoutPanel1);
+            this.groupBox1.Location = new System.Drawing.Point(34, 83);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(877, 282);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.SystemColors.Control;
+            this.label15.Location = new System.Drawing.Point(810, 13);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(57, 17);
+            this.label15.TabIndex = 1;
+            this.label15.Text = "ยอดชำระ";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.SystemColors.Control;
+            this.label14.Location = new System.Drawing.Point(722, 13);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(65, 17);
+            this.label14.TabIndex = 1;
+            this.label14.Text = "ราคาสินค้า";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.SystemColors.Control;
+            this.label13.Location = new System.Drawing.Point(669, 13);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(46, 17);
+            this.label13.TabIndex = 1;
+            this.label13.Text = "จำนวน";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.SystemColors.Control;
+            this.label12.Location = new System.Drawing.Point(389, 14);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(53, 17);
+            this.label12.TabIndex = 1;
+            this.label12.Text = "ชื่อสินค้า";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.SystemColors.Control;
+            this.label16.Location = new System.Drawing.Point(12, 13);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(37, 17);
+            this.label16.TabIndex = 1;
+            this.label16.Text = "ลำดับ";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.SystemColors.Control;
+            this.label11.Location = new System.Drawing.Point(76, 13);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(61, 17);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "รหัสสินค้า";
+            // 
+            // listBox2
+            // 
+            this.listBox2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.listBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 16;
+            this.listBox2.Location = new System.Drawing.Point(789, 35);
+            this.listBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.listBox2.Size = new System.Drawing.Size(77, 240);
+            this.listBox2.TabIndex = 0;
+            // 
+            // listBox5
+            // 
+            this.listBox5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.listBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBox5.FormattingEnabled = true;
+            this.listBox5.ItemHeight = 16;
+            this.listBox5.Location = new System.Drawing.Point(725, 35);
+            this.listBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listBox5.Name = "listBox5";
+            this.listBox5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.listBox5.Size = new System.Drawing.Size(59, 240);
+            this.listBox5.TabIndex = 0;
+            // 
+            // listBox4
+            // 
+            this.listBox4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.listBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBox4.FormattingEnabled = true;
+            this.listBox4.ItemHeight = 16;
+            this.listBox4.Location = new System.Drawing.Point(675, 35);
+            this.listBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listBox4.Name = "listBox4";
+            this.listBox4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.listBox4.Size = new System.Drawing.Size(33, 240);
+            this.listBox4.TabIndex = 0;
+            // 
+            // listBox3
+            // 
+            this.listBox3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.listBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.ItemHeight = 16;
+            this.listBox3.Location = new System.Drawing.Point(166, 33);
+            this.listBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.Size = new System.Drawing.Size(469, 240);
+            this.listBox3.TabIndex = 0;
+            // 
+            // listBox6
+            // 
+            this.listBox6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.listBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBox6.FormattingEnabled = true;
+            this.listBox6.ItemHeight = 16;
+            this.listBox6.Location = new System.Drawing.Point(5, 35);
+            this.listBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listBox6.Name = "listBox6";
+            this.listBox6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.listBox6.Size = new System.Drawing.Size(37, 240);
+            this.listBox6.TabIndex = 0;
+            // 
+            // listBox1
+            // 
+            this.listBox1.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(64, 35);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(86, 240);
+            this.listBox1.TabIndex = 0;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.Control;
+            this.tableLayoutPanel1.ColumnCount = 7;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 52F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 99F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 248F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 255F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 56F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 83F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 74F));
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(6, 11);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(866, 21);
+            this.tableLayoutPanel1.TabIndex = 2;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Location = new System.Drawing.Point(34, 370);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Size = new System.Drawing.Size(696, 54);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(574, 17);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(99, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "รวมค่าสินค้า";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.label2);
+            this.groupBox3.Location = new System.Drawing.Point(554, 425);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox3.Size = new System.Drawing.Size(176, 54);
+            this.groupBox3.TabIndex = 1;
+            this.groupBox3.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(91, 17);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(62, 25);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "ส่วนลด";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.label3);
+            this.groupBox4.Location = new System.Drawing.Point(34, 479);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox4.Size = new System.Drawing.Size(696, 54);
+            this.groupBox4.TabIndex = 1;
+            this.groupBox4.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(518, 16);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(155, 25);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "ยอดค่าสินค้าทั้งหมด";
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.label6);
+            this.groupBox5.Location = new System.Drawing.Point(735, 370);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox5.Size = new System.Drawing.Size(176, 54);
+            this.groupBox5.TabIndex = 2;
+            this.groupBox5.TabStop = false;
+            // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(12, 21);
+            this.label6.Name = "label6";
+            this.label6.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label6.Size = new System.Drawing.Size(150, 26);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "0";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.label5);
+            this.groupBox6.Location = new System.Drawing.Point(735, 425);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox6.Size = new System.Drawing.Size(176, 54);
+            this.groupBox6.TabIndex = 2;
+            this.groupBox6.TabStop = false;
+            // 
+            // label5
+            // 
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(12, 18);
+            this.label5.Name = "label5";
+            this.label5.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label5.Size = new System.Drawing.Size(150, 26);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "0";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.label4);
+            this.groupBox7.Location = new System.Drawing.Point(735, 479);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox7.Size = new System.Drawing.Size(176, 54);
+            this.groupBox7.TabIndex = 2;
+            this.groupBox7.TabStop = false;
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label4.Location = new System.Drawing.Point(14, 16);
+            this.label4.Name = "label4";
+            this.label4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label4.Size = new System.Drawing.Size(152, 37);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "0";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.button1.Location = new System.Drawing.Point(796, 548);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(116, 44);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "ชำระเงิน";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.button2.Location = new System.Drawing.Point(675, 548);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(116, 44);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "ล้างข้อมูล";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.button3.Location = new System.Drawing.Point(554, 548);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(116, 44);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "ย้อนกลับ";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(166, 17);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox1.MaxLength = 10;
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(225, 27);
+            this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(59, 17);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(91, 25);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "โค้ดส่วนลด";
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.button4);
+            this.groupBox8.Controls.Add(this.label7);
+            this.groupBox8.Controls.Add(this.textBox1);
+            this.groupBox8.Location = new System.Drawing.Point(34, 425);
+            this.groupBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox8.Size = new System.Drawing.Size(512, 54);
+            this.groupBox8.TabIndex = 1;
+            this.groupBox8.TabStop = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button4.Location = new System.Drawing.Point(412, 16);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(82, 27);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "ใช้โค้ด";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.Button4_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(420, 7);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(105, 36);
+            this.label8.TabIndex = 4;
+            this.label8.Text = "ใบเสร็จ";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(31, 45);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(82, 17);
+            this.label9.TabIndex = 5;
+            this.label9.Text = "เลขที่ใบเสร็จ :";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(122, 46);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(0, 17);
+            this.label10.TabIndex = 6;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(34, 64);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(61, 17);
+            this.label17.TabIndex = 7;
+            this.label17.Text = "ID user :";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(100, 65);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(0, 17);
+            this.label18.TabIndex = 8;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(695, 45);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(40, 17);
+            this.label19.TabIndex = 9;
+            this.label19.Text = "วันที่ :";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(735, 45);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(0, 17);
+            this.label20.TabIndex = 10;
+            // 
+            // Form_Invoice
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ClientSize = new System.Drawing.Size(955, 602);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.groupBox7);
+            this.Controls.Add(this.groupBox6);
+            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox8);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "Form_Invoice";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Invoice";
+            this.Activated += new System.EventHandler(this.Form_Invoice_Activated);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_Invoice_FormClosing);
+            this.Load += new System.EventHandler(this.Form_Invoice_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.GroupBox groupBox8;
+        public System.Windows.Forms.ListBox listBox2;
+        public System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button button4;
+        public System.Windows.Forms.ListBox listBox4;
+        public System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        public System.Windows.Forms.ListBox listBox5;
+        private System.Windows.Forms.Label label16;
+        public System.Windows.Forms.ListBox listBox6;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Label label17;
+        public System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
+    }
+}
